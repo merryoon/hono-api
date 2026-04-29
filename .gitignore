@@ -1,0 +1,7 @@
+# .gitignore
+node_modules/
+dist/
+sqlite.db
+drizzle/
+*.log
+.DS_Store
