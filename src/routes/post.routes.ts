@@ -1,6 +1,6 @@
 // src/routes/posts.ts
 import { Hono } from 'hono';
-import { postService } from '../services/postService.js';
+import { postService } from '../services/post.service.js';
 
 const postsRouter = new Hono();
 

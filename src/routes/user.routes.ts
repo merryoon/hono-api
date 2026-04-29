@@ -1,6 +1,6 @@
 // src/routes/users.ts
 import { Hono } from 'hono';
-import { userService } from '../services/userService.js';
+import { userService } from '../services/user.service.js';
 
 const usersRouter = new Hono();
 

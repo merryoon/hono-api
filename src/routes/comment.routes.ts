@@ -1,6 +1,6 @@
 // src/routes/comments.ts
 import { Hono } from 'hono';
-import { commentService } from '../services/commentService.js';
+import { commentService } from '../services/comment.service.js';
 
 const commentsRouter = new Hono();
 

@@ -2,7 +2,7 @@
 import { db } from '../db/index.js';
 import { comments } from '../db/schema.js';
 import { eq } from 'drizzle-orm';
-import { postService } from './postService.js';
+import { postService } from './post.service.js';
 
 export const commentService = {
   async getAllComments(postId?: number) {
